@@ -1,4 +1,4 @@
-# [<img src="./documentation/img/typescript.png" width="600" />](https://es.wikipedia.org/wiki/JavaScript)
+# [<img src="./documentation/img/typescript.png" width="600" />](https://www.typescriptlang.org/)
 
 # TYPESCRIPT
 
