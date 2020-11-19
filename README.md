@@ -1,22 +1,21 @@
+# [<img src="./documentation/img/typescript.png" width="600" />](https://es.wikipedia.org/wiki/JavaScript)
 
 # TYPESCRIPT
 
+## Tabla de contenido
 
-## Tabla de Contenido
-
-- [QUE ES TYPESCRIPT](#QUE_ES_TYPESCRIPT)
-- [INSTALACION](#INSTALACION)
-- [COMPILACION](#COMPILACION)
+- [Que es typescript](#Que_es_typescript)
+- [Instalacion](#Instalacion)
+- [Compilacion](#Compilacion)
     - [Compilando de codigo de forma manual](#Compilando-de-codigo-de-forma-manual)
     - [Compilacion de codigo de forma automatica](#Compilacion-de-codigo-de-forma-automatica)
-- [COMPILACION](#COMPILACION)
-- [TIPOS DE DATOS](#TIPOS-DE-DATOS)
+- [Tipos de datos](#Tipos_de_datos)
     - [Introduccion](#Introduccion)
     - [String](#Introduccion)
 
 
 
-### QUE ES TYPESCRIPT
+### Que es typescript
 
 * TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases. Anders Hejlsberg, diseñador de C_Sharp y creador de Delphi y Turbo Pascal, ha trabajado en el desarrollo de TypeScript.1​ TypeScript puede ser usado para desarrollar aplicaciones JavaScript que se ejecutarán en el lado del cliente o del servidor (Node.js y Deno (software)).
 
@@ -28,7 +27,7 @@
 
 
 
-### INSTALACION
+### Instalacion
 
     - Instalar NodeJS
 
@@ -55,7 +54,7 @@
 
 
 
-### COMPILACION
+### Compilacion
 
 
 #### Compilando de codigo de forma manual
@@ -73,7 +72,7 @@
 
 
 
-### TIPOS DE DATOS
+### Tipos de datos
 
 #### Introduccion
 
