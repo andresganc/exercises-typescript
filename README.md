@@ -1,8 +1,12 @@
 # [<img src="./documentation/img/typescript.png" width="600" />](https://www.typescriptlang.org/)
 
-# TYPESCRIPT
+<br>
 
-## Tabla de contenido
+# [<img src="./documentation/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE TYPESCRIPT
+
+<br>
+
+### Tabla de contenido
 
 - [Que es typescript](#Que_es_typescript)
 - [Instalacion](#Instalacion)
@@ -13,7 +17,7 @@
     - [Introduccion](#Introduccion)
     - [String](#Introduccion)
 
-
+<br><br>
 
 ### Que es typescript
 
@@ -26,6 +30,7 @@
     El compilador de TypeScript está escrito asimismo en TypeScript, compilado a JavaScript y con Licencia Apache 2.
 
 
+<br>
 
 ### Instalacion
 
@@ -34,6 +39,7 @@
     - npm install -g typescript
 
 
+<br>
 
 ### Crear nuevo proyecto react con TypeScript
 
@@ -43,6 +49,7 @@
 
     yarn create react-app my-app --template typescript
 
+<br>
 
 ### Agregar TypeScript a proyectos react ya existentes
 
@@ -53,14 +60,18 @@
     yarn add typescript @types/node @types/react @types/react-dom @types/jest
 
 
+<br>
 
 ### Compilacion
 
+
+<br>
 
 #### Compilando de codigo de forma manual
 
     - tsc miarchivo.ts
 
+<br>
 
 #### Compilacion de codigo de forma automatica
 
@@ -71,14 +82,20 @@
     - tsc miarchivo.ts -w
 
 
+<br>
 
 ### Tipos de datos
+
+
+<br>
 
 #### Introduccion
 
     - Para que los programas sean útiles, necesitamos poder trabajar con algunas de las unidades de datos más simples: números, cadenas, estructuras, 
     valores booleanos y similares. En TypeScript, admitimos casi los mismos tipos que esperaría en JavaScript, con un tipo de enumeración conveniente para ayudar a las cosas.
 
+
+<br>
 
 #### String
 
@@ -109,6 +126,8 @@
     "I'll be " + (age + 1) + " years old next month.";
 
 
+<br>
+
 #### Number
 
     - Como en JavaScript, todos los números en TypeScript son valores de coma flotante. Estos números de coma flotante obtienen el tipo number. Además de los literales hexadecimales y decimales, TypeScript también admite literales binarios y octales introducidos en ECMAScript 2015.
@@ -120,6 +139,8 @@
     let binary: number = 0b1010;
     let octal: number = 0o744;
 
+
+<br>
 
 #### Boolean
 
