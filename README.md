@@ -1,8 +1,8 @@
-# [<img src="./documentation/img/typescript.png" width="600" />](https://www.typescriptlang.org/)
+# [<img src="./readme/img/typescript.png" width="600" />](https://www.typescriptlang.org/)
 
 <br>
 
-# [<img src="./documentation/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE TYPESCRIPT
+# [<img src="./readme/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE TYPESCRIPT
 
 <br>
 
