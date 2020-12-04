@@ -6,10 +6,10 @@
 // Funcion suma sin recibir parametros
 function suma() {
 
-    var num1 = 5;
-    var num2 = 5;
+    var num1: number = 5;
+    var num2: number = 5;
 
-    var resultado = ( parseInt(num1) + parseInt(num2) );
+    var resultado = ( num1 + num2 );
 
     console.log("El resultado de la suma es :", resultado);
 }
@@ -20,7 +20,7 @@ function resta() {
     var num1 = 8;
     var num2 = 2;
 
-    var resultado = ( parseInt(num1) - parseInt(num2) );
+    var resultado = ( num1 - num2 );
 
     console.log("El resultado de la resta es :", resultado);
 }
@@ -31,9 +31,9 @@ function resta() {
 // ============================================ FUNCIONES CON PARAMETROS =================================
 
 // Funcion sumaDatos con parametros (num1 , num2)
-function sumaDatos( num1, num2 ) {
+function sumaDatos( num1: number, num2: number ) {
 
-    var resultado = ( parseInt(num1) + parseInt(num2)); 
+    var resultado = ( num1 + num2 ); 
     
     console.log("El resultado de la suma es :", resultado);
 
@@ -42,9 +42,9 @@ function sumaDatos( num1, num2 ) {
 
 // Funcion sumaDatos con parametros ( nombre, num1, num2, num3 )
 // Desde ES6 tambien se pueden inicializar los ṕarametros de ña funcion
-function sumaDatosNombre( nombre, num1=0, num2=0, num3=0) {
+function sumaDatosNombre( nombre: string, num1: number=0, num2: number=0, num3: number=0) {
 
-    var resultado = ( parseInt(num1) + parseInt(num2) + parseInt(num3) ); 
+    var resultado = ( num1 + num2 + num3 ); 
     
     console.log("Hola ", nombre,  " el resultado de la suma es :", resultado);
 

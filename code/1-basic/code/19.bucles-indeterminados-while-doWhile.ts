@@ -16,17 +16,17 @@ while (condicion) {
 
 */
 
-var ProductoNC = ["Camara fija interna", "camara fija externa", "DVR - XVR", "Video Balum"];
-var meses = [
+var ProductoNC: string[] = ["Camara fija interna", "camara fija externa", "DVR - XVR", "Video Balum"];
+var meses: string[] = [
     "Enero", "Febrero", "Marzo",
     "Abril", "Mayo", "Junio",              
     "Julio", "Agosto", "Septiembre",
     "Octubre", "Noviembre", "Diciembre"];
 
-var contador = 0;
+var contador: number = 0;
+
 
 // Ejemplo 1
-
 while (contador < 4){
 
     console.log (ProductoNC[contador]);
@@ -34,9 +34,9 @@ while (contador < 4){
     contador ++
 }
 
-contador.
-
 contador = 0;
+
+
 // Ejemplo 2
 while ( contador < meses.length ) {
 
