@@ -52,17 +52,21 @@ Diferentes Clases podrían definir el mismo método o propiedad.
 
 */
 
-// SINTAXIS
+// SINTAXIS DE CLASES EN TYPESCRIPT
 // Clase carro1 (Objeto carro1)
-class carro1 {
-    
-    constructor(puertaColor, ruedasTamaño, ventanas, motor){
-        this.puertaColor = "Amarilla";
-        this.ruedasTamaño = "Pequeñas";
-        this.ventanas = "";
-        this.motor = 1200;
+class classCarro1 {
+
+    puertaColor: string;
+    ruedasTamaño: string
+    ventanas: string
+    motor: number
+
+    constructor(thePuertaColor: string, theRuedasTamaño: string, theVentanas: string, theMotor: number) {
+        this.puertaColor = thePuertaColor;
+        this.ruedasTamaño = theRuedasTamaño;
+        this.ventanas = theVentanas;
+        this.motor = theMotor;
     }    
-    
     
     // Metodo
     arrancar(){
@@ -81,10 +85,12 @@ class carro1 {
     }
 }
 
+
+
 // Instanciar la clase carro1 (Al instanciar la clase lo que hacemos es convertirlo en objeto)
-var carro = new carro1;
+let carro1 = new classCarro1('Rojo', 'Pequeñas', 'electricas', 1200);
 
-carro.puertaColor = "Rojo";
+carro1.puertaColor = "Azul";
 
-console.log ("La puerta del carro es de color :" , carro.puertaColor);
+console.log (`Carro 1 / Color puerta: ${carro1.puertaColor} - Ruedas: ${carro1.ruedasTamaño} - Ventanas: ${carro1.ventanas} - Motor: ${carro1.motor} cc`);
 

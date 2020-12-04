@@ -1,11 +1,9 @@
 
-
 // =========================== METODOS ============================
 
 /*
 los metodos son bloques de codigo que suelen estar dentro de una clase
 */
-
 
 // Salta error porque un metodo no puede estar fuera de una clase.
 /*
@@ -14,10 +12,8 @@ resta(){
 }
 */
 
-
-
+/*
 function operacionesMatematicas () {
-
     metodoSuma(
         console.log("Hola metodo suma")
     );
@@ -26,19 +22,24 @@ function operacionesMatematicas () {
 
     metodoResta(
         console.log("Hola metodo resta")
-    );
-
-       
+    );     
 }
+*/
+
 
 // Clase carro1 (Objeto carro1)
-class carro1 {
+class classCarro2 {
+
+    puertaColor: string
+    ruedasTamaño: string
+    ventanas: string
+    motor: number
     
-    constructor(puertaColor, ruedasTamaño, ventanas, motor){
-        this.puertaColor = "Amarilla";
-        this.ruedasTamaño = "Pequeñas";
-        this.ventanas = "";
-        this.motor = 1200;
+    constructor(thePuertaColor: string, theRuedasTamaño: string, theVentanas: string, theMotor: number){
+        this.puertaColor = thePuertaColor;
+        this.ruedasTamaño = theRuedasTamaño;
+        this.ventanas = theVentanas;
+        this.motor = theMotor;
     }    
     
     // Metodo
@@ -61,9 +62,9 @@ class carro1 {
 }
 
 // Instanciar Clase carro1
-var carro = new carro1
+var carro2 = new classCarro2('Verde', 'Pequeñas', 'Electricas', 1400)
 
 // Reasignar color de la puerta
-carro.puertaColor = "Verde";
+carro2.puertaColor = "Amarilla";
 
-console.log ("La puerta es de color :", carro.puertaColor)
+console.log (`Carro 2 / Color puerta:", ${carro2.puertaColor} - Ruedas tamaño: ${carro2.ruedasTamaño} - Ventanas: ${carro2.ventanas} - Motor: ${carro2.motor} cc`)

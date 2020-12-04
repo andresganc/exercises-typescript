@@ -13,7 +13,7 @@ try {
 // Ejemplo
 
 try {
-    noexiste
+    console.log(`no existe`);
 } catch (error) {
     console.log(`Error. catch ha capturado un error. El error es: ${error}`);
     console.log('Ya no aparece el mensaje de error rojo en consola por que los errores ya los esta gestionando try catch');
@@ -22,7 +22,7 @@ try {
 // Lanzar un error
 try {
 
-    let numero = 10;
+    let numero: number = 10;
     //let numero = 'Andres';        // Genera el error por no ser un numero isNaN
 
     if (isNaN(numero)) {

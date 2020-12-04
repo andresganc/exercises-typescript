@@ -4,11 +4,11 @@
 
 // Capturar posicion de un array
 // Forma normal ( Sin destructuracion) 
-let numerosSin = [6, 20, 89]
+let numerosSin: number[] = [6, 20, 89]
 
-let unoSin = numerosSin[0],
-    dosSin = numerosSin[1],
-    tresSin = numerosSin[2];
+let unoSin: number = numerosSin[0],
+    dosSin: number = numerosSin[1],
+    tresSin: number = numerosSin[2];
 
 console.log(unoSin, dosSin, tresSin)
 
@@ -16,7 +16,7 @@ console.log(unoSin, dosSin, tresSin)
 // Con destructuracion
 
 // Ejemplo 1 - En Array
-let numerosCon = [67, 298, 4]
+let numerosCon: number[] = [67, 298, 4]
 const [unoCon, dosCon, tresCon] = numerosCon
 console.log(unoCon, dosCon, tresCon)
 
