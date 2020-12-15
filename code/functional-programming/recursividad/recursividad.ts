@@ -9,6 +9,7 @@ se cumple una condicion de salida.
 // Funcion que recibe un parametro a y verifica en la condicion si a es < 0
 // Imprime y se llama asi misma restandole -1
 
+/*
 const conteoRegresivoTS = (a: any) => {
     if (a < 0) return 
         console.log(a)
@@ -16,7 +17,7 @@ const conteoRegresivoTS = (a: any) => {
 }
 
 conteoRegresivoTS(10)
-
+*/
 
 
 // Ejemplo 2:
@@ -29,13 +30,14 @@ conteoRegresivoTS(10)
 //<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 //const axios = require('axios')    // Recomendado: No usar require 
 //import { axios } from 'https://unpkg.com/axios/dist/axios.min.js'
-import axios from 'axios'
+//import axios from 'axios'
+import axiod from "https://deno.land/x/axiod/mod.ts";       // Axios para DENO
 
-const llamarAPI = async (url: string, llamados: number = 0) => {
+const llamarAPI = async (url: any, llamados: any = 0) => {
     
     try {
 
-        const result = await axios.get(url)
+        const result = await axiod.get(url)
         
         console.log(result)
         return result    
