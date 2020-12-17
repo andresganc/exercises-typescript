@@ -1,0 +1,22 @@
+{
+  "name": "closures-api-fetch-node-ts",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "./tasks/build.sh",
+    "build:dev": "./tasks/build.sh -d",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "./tasks/release.sh"
+  },
+  "author": {
+    "name": "Andres Giraldo"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
