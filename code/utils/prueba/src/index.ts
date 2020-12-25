@@ -1,3 +1,12 @@
+/*
+import Greeter from './Greeter'
+
+const greeter = new Greeter('Andres Giraldo', 'prueba')
+greeter.sayHello()
+*/
+
+
+
 
 // ============== COMPOSITION - COMPOSICION ============
 /*

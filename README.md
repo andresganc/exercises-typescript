@@ -8,8 +8,8 @@
 
 ### Tabla de contenido
 
-- [Que es typescript](#Que_es_typescript)
 - [Instalacion](#Instalacion)
+- [Que es typescript](#Que_es_typescript)
 - [Compilacion](#Compilacion)
     - [Compilando de codigo de forma manual](#Compilando-de-codigo-de-forma-manual)
     - [Compilacion de codigo de forma automatica](#Compilacion-de-codigo-de-forma-automatica)
@@ -18,6 +18,21 @@
     - [String](#Introduccion)
 
 <br><br>
+
+
+
+### Instalacion
+
+    - Instalar NodeJS
+
+    Instalacion local
+    - npm i typescript
+
+    Instalacion global
+    - npm install -g typescript
+
+
+<br>
 
 ### Que es typescript
 
@@ -28,15 +43,6 @@
     TypeScript soporta ficheros de definición que contengan información sobre los tipos de librerías JavaScript existentes, similares a los ficheros de cabeceras de C/C++ que describen la estructura de ficheros de objetos existentes. Esto permite a otros programas usar los valores definidos en los ficheros como si fueran entidades TypeScript de tipado estático. Existen cabeceras para librerías populares como jQuery, MongoDB y D3.js, y los módulos básicos de Node.js.
 
     El compilador de TypeScript está escrito asimismo en TypeScript, compilado a JavaScript y con Licencia Apache 2.
-
-
-<br>
-
-### Instalacion
-
-    - Instalar NodeJS
-
-    - npm install -g typescript
 
 
 <br>
