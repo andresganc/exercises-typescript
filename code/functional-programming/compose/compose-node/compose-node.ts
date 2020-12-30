@@ -11,10 +11,10 @@
 */
 
 
-//const _ = require('lodash')
+const _ = require('lodash')
 //import _ = require('lodash')
 //import * as _ from 'lodash'
-import _ from 'lodash'
+//import _ from 'lodash'
 
 const users = [
     { id: 1, nombre: 'Andres', apellido: 'Giraldo' }
