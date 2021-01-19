@@ -55,8 +55,47 @@ Como ya se mencionó con anterioridad, la barra inversa también puede darle sig
 
 let cadena: string = "Lorem ipsum dolor sit amet consectetur adipiscing elit. Voloutatem lorem"
 
-let expReg1 = new RegExp('lorem', '')
-let expReg2 = /lorem/
+/* Metodo 1*/
+let expRegM1FlagVacia = new RegExp('lorem', '')
+let expRegM1FlagGlobal = new RegExp('lorem', 'g')
+let expRegM1FlagIgnore = new RegExp('lorem', 'i')
+let expRegM1FlagIgnoreGlobal = new RegExp('lorem', 'ig')
+let expRegM1FlagNumeros = new RegExp('\d', 'ig')
 
-console.log(expReg1.test(cadena))
-console.log(expReg1.exec(cadena))
+console.log(` Metodo 1 - Buscando lorem - Flag vacia - test ${expRegM1FlagVacia.test(cadena)}`)
+console.log(` Metodo 1 - Buscando lorem - Flag vacia - exec ${expRegM1FlagVacia.exec(cadena)}`)
+
+console.log(` Metodo 1 - Buscando lorem - Flag g - test ${expRegM1FlagGlobal.test(cadena)}`)
+console.log(` Metodo 1 - Buscando lorem - Flag g - exec ${expRegM1FlagGlobal.exec(cadena)}`)
+
+console.log(` Metodo 1 - Buscando lorem - Flag i - test ${expRegM1FlagIgnore.test(cadena)}`)
+console.log(` Metodo 1 - Buscando lorem - Flag i - exec ${expRegM1FlagIgnore.exec(cadena)}`)
+
+console.log(` Metodo 1 - Buscando lorem - Flag ig - test ${expRegM1FlagIgnoreGlobal.test(cadena)}`)
+console.log(` Metodo 1 - Buscando lorem - Flag ig - exec ${expRegM1FlagIgnoreGlobal.exec(cadena)}`)
+
+console.log(` Metodo 1 - Buscando numeros - Flag i - test ${expRegM1FlagNumeros.test(cadena)}`)
+console.log(` Metodo 1 - Buscando numeros - Flag i - exec ${expRegM1FlagNumeros.exec(cadena)}`)
+
+
+/* Metodo 2 (Mas usado) */
+let expRegM2FlagVacia = /lorem/;
+let expRegM2FlagGlobal = /lorem/g;
+let expRegM2FlagIgnore = /lorem/i;
+let expRegM2FlagIgnoreGlobal = /lorem/ig;
+let expRegM2FlagNumeros = /\d/
+
+console.log(` Metodo 2 - Buscando lorem - Flag vacia - test ${expRegM2FlagVacia.test(cadena)}`)
+console.log(` Metodo 2 - Buscando lorem - Flag vacia - exec ${expRegM2FlagVacia.exec(cadena)}`)
+
+console.log(` Metodo 2 - Buscando lorem - Flag g - test ${expRegM2FlagGlobal.test(cadena)}`)
+console.log(` Metodo 2 - Buscando lorem - Flag g - exec ${expRegM2FlagGlobal.exec(cadena)}`)
+
+console.log(` Metodo 2 - Buscando lorem - Flag i - test ${expRegM2FlagIgnore.test(cadena)}`)
+console.log(` Metodo 2 - Buscando lorem - Flag i - exec ${expRegM2FlagIgnore.exec(cadena)}`)
+
+console.log(` Metodo 2 - Buscando lorem - Flag ig - test ${expRegM2FlagIgnoreGlobal.test(cadena)}`)
+console.log(` Metodo 2 - Buscando lorem - Flag ig - exec ${expRegM2FlagIgnoreGlobal.exec(cadena)}`)
+
+console.log(` Metodo 2 - Buscando numeros - Flag i - test ${expRegM2FlagNumeros.test(cadena)}`)
+console.log(` Metodo 2 - Buscando numeros - Flag i - exec ${expRegM2FlagNumeros.exec(cadena)}`)
