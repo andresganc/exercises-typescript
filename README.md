@@ -26,7 +26,7 @@
     - Instalar NodeJS
 
     Instalacion local
-    - npm i typescript
+    - npm i -D typescript
 
     Instalacion global
     - npm install -g typescript
