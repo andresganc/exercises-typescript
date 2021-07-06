@@ -31,3 +31,15 @@ let value4: A | B = {
     dos: 5,
     tres: true
 }
+
+
+// Show props of type string or number
+let value5: string | number
+
+if (typeof(value5) === 'string') {
+    // Now can show the props of type string
+    value5.trim()
+} else if (typeof(value5) === 'number') {
+    // Now can show the props of type string
+    value5.toString()
+}
