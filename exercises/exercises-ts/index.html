@@ -6,14 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Exercises TS </title>
+
+    <!-- Styles Bootstrap 5 -->
+    <link rel="stylesheet" href="./dist/index.css">
+    <!-- Styles Dashboard -->
+    <link rel="stylesheet" href="./src/components/assets/css/dashboard-basic-01.css">
 </head>
 <body>
-    <h2> EXERCISES TYPESCRIPT </h2>
 
-    <p> Dashboard de exercises para typescript </p>
+    <div class="dash">
+        
+        <aside class="dash--aside-left">
+            <menu-basic-vertical-01-wc></menu-basic-vertical-01-wc>
+        </aside>
+
+        <div class="dash--body">
+
+            <div class="dash--menu">
+                <menu-basic-01-wc></menu-basic-01-wc>
+            </div>
+
+            <div class="dash--main">
+                <div>
+                    <Section>
+                        <article class="container-md mt-3">
+    
+                            <header class="header mb-3">
+                                <h6> 01 - EXERCISES BASIC  - Lengt of string </h6>
+                                <p> Do an exercise that counts the text strings </p>
+                            </header>
+                            
+    
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Text string</label>
+                                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text"> You can add any text string ( Text, Number etc)  </div>
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Check if it is text or number</label>
+                                </div>
+                                <button class="btn btn-primary btn-sm"> Execute code </button>
+                              </form>
+    
+                            
+                        </article>
+                    </Section>
+                </div>
+
+                <aside>
+                    
+                </aside>
+                
+            </div>
+
+        </div>
+    </div>
 
 
     <!-- Index -->
     <script src="./index.js" type="module"></script>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
