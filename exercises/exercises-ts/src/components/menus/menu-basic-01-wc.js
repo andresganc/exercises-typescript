@@ -49,9 +49,10 @@ class MenuBasic01Wc extends HTMLElement {
             </ul>
 
             <ul class='menu--ul'>
-                <li class="menu--li"><a class="menu--a"> Inicio </a></li>
-                <li class="menu--li"><a class="menu--a"> Acerca de </a></li>
-                <li class="menu--li"><a class="menu--a"> Servicios </a></li>
+                <li class="menu--li"><a class="menu--a" href="index.html"> Inicio </a></li>
+                <li class="menu--li"><a class="menu--a" href="basic-exercises.html"> Basic</a></li>
+                <li class="menu--li"><a class="menu--a" href="intermedium-exercises.html"> Entermedium </a></li>
+                <li class="menu--li"><a class="menu--a" href="avanced-exercises.html"> Avanced </a></li>
             </ul>
 
             <ul>
