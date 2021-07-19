@@ -26,7 +26,10 @@ class MenuBasic01Wc extends HTMLElement {
                 display: flex;  
             }
 
-            .menu--li {
+            .menu--a {
+                color: #fff;
+                text-decoration: none !important;
+
                 list-style: none;
                 margin-left: .1rem;
                 margin-right: .1rem;
@@ -36,7 +39,7 @@ class MenuBasic01Wc extends HTMLElement {
                 transition: .5s
             }
 
-            .menu--li:hover {
+            .menu--a:hover {
                 background-color: #757575;
             }
 
@@ -49,16 +52,15 @@ class MenuBasic01Wc extends HTMLElement {
             </ul>
 
             <ul class='menu--ul'>
-                <li class="menu--li"><a class="menu--a" href="index.html"> Inicio </a></li>
-                <li class="menu--li"><a class="menu--a" href="basic-exercises.html"> Basic</a></li>
-                <li class="menu--li"><a class="menu--a" href="intermedium-exercises.html"> Entermedium </a></li>
-                <li class="menu--li"><a class="menu--a" href="avanced-exercises.html"> Avanced </a></li>
+                <a class="menu--a" href="index.html"> Inicio </a>
+                <a class="menu--a" href="exercises-basic.html"> Basic</a>
+                <a class="menu--a" href="exercises-medium.html"> Medium </a>
+                <a class="menu--a" href="exercises-avanced.html"> Avanced </a>
             </ul>
 
             <ul>
                 <input placeholder='Buscar'></input>
             </ul>
-            
         </nav>
         
         `
