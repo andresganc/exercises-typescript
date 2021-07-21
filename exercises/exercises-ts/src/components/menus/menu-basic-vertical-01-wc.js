@@ -35,7 +35,7 @@ class MenuBasicVertical01Wc extends HTMLElement {
 
             .main--header-logo {
                 display: inline-block;
-                vertical-align: middle;
+                vertical-align: text-bottom;
                 margin-right: .5rem;
             }
 
@@ -78,8 +78,11 @@ class MenuBasicVertical01Wc extends HTMLElement {
                 
             }
 
-            .main--menu-li {
-                list-style: none;
+            .main--menu-a {
+                display: block;
+                color: #ffff;
+                text-decoration: none;
+                padding-left: 1rem;
                 border-radius: .3rem;
                 padding-top: .8rem; 
                 padding-bottom: .8rem; 
@@ -87,16 +90,16 @@ class MenuBasicVertical01Wc extends HTMLElement {
                 transition: .5s
             }
 
-            .main--menu-li:hover {
+            .main--menu-a:hover {
                 background-color: #757575;
                 background-color: #2979FF;
             }
 
-            .main--menu-a {
-                text-decoration: none;
-                padding-left: 1rem;
+            .main--menu-icon {
+                display: inline-block;
+                vertical-align: text-bottom;
+                margin-right: .3rem
             }
-
 
         </style>
 
@@ -107,17 +110,17 @@ class MenuBasicVertical01Wc extends HTMLElement {
 
             <div class='main--header'>
             <div>
-                <image class='main--header-logo' src='https://bucket-nc-images.s3.amazonaws.com/nc/logos/nc/imagotipo/imagotipo-nc.png' width='35'>
-                <h3 class='main--header-title'> NC DASHBOARD <h3>
+                <image class='main--header-logo' src='./src/assets/img/typescript-logo.png' width='30'>
+                <h3 class='main--header-title'> TYPESCRIPT <h3>
             </div>
         </div>
 
         <hr>
 
         <div class='main--profile'>
+            
             <div>
-                <image class='main--profile-photo' src='https://bucket-nc-images.s3.amazonaws.com/nc/logos/nc/imagotipo/imagotipo-nc.png' width='35'>
-                <p class='main--profile-name'> Marco Giraldo <p>
+                <image class='main--profile-photo' src='./src/assets/img/user-circle-solid.svg' width='30'>
                 <p class='main--profile-data'> Mi perfil <p>
                 <p class='main--profile-data'> Editar perfil <p>
                 <p class='main--profile-data'> Configuracion <p>
@@ -130,16 +133,60 @@ class MenuBasicVertical01Wc extends HTMLElement {
             <nav class='main--menu-nav'>
                 
                 <ul class='main--menu-ul'>
-                    <li class="main--menu-li"><a class="main--menu-a"> DASHBOARD </a></li> 
+                    
+                    <a class="main--menu-a" href="index.html">
+                        <img class='main--menu-icon' src='./src/assets/img/home-solid.svg' width='24'> 
+                        DASHBOARD 
+                    </a>
                 </ul>
 
                 <ul class='main--menu-ul'>
-                    <li class="main--menu-li"><a class="main--menu-a"> COMPONENTS </a></li>
+                    <a class="main--menu-a">
+                        <img class='main--menu-icon' src='./src/assets/img/puzzle.svg' width='22'>
+                        EXERCISES
+                    </a>
                     <ul class='main--menu-ul'>
-                        <li class="main--menu-li"><a class="main--menu-a"> Servicios </a> </li>
-                        <li class="main--menu-li"><a class="main--menu-a"> Servicios </a> </li>
+                        <a class="main--menu-a" href="exercises-basic.html">
+                            <img class='main--menu-icon' src='./src/assets/img/one.svg' width='20'>
+                            Basic
+                        </a>
+                        <a class="main--menu-a" href="exercises-medium.html">
+                            <img class='main--menu-icon' src='./src/assets/img/two.svg' width='20'>
+                            Medium
+                        </a>
+                        <a class="main--menu-a" href="exercises-avanced.html">
+                            <img class='main--menu-icon' src='./src/assets/img/three.svg' width='20'>
+                            Avanced
+                        </a>
                     </ul>
-                    
+                </ul>
+
+                <ul class='main--menu-ul'>
+                    <a class="main--menu-a">
+                        <img class='main--menu-icon' src='./src/assets/img/test-blue.svg' width='22'>
+                        TESTS
+                    </a>
+                    <ul class='main--menu-ul'>
+                        <a class="main--menu-a" href="exercises-basic.html">
+                            <img class='main--menu-icon' src='./src/assets/img/one.svg' width='20'>
+                            Basic
+                        </a>
+                        <a class="main--menu-a" href="exercises-medium.html">
+                            <img class='main--menu-icon' src='./src/assets/img/two.svg' width='20'>
+                            Medium
+                        </a>
+                        <a class="main--menu-a" href="exercises-avanced.html">
+                            <img class='main--menu-icon' src='./src/assets/img/three.svg' width='20'>
+                            Avanced
+                        </a>
+                    </ul>
+                </ul>
+
+                <ul class='main--menu-ul'>
+                    <a class="main--menu-a" href="index.html">
+                    <img class='main--menu-icon' src='./src/assets/img/info-button.svg' width='20'>
+                    ABOUT AS
+                    </a>
                 </ul>
             </nav>
         </div>

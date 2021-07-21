@@ -13,7 +13,7 @@ class MenuBasic01Wc extends HTMLElement {
                 display: flex;
                 justify-content: space-between;
                 color: #ffff;
-                background-color: #2979FF;
+                background-color: #1565C0;
                 padding: .1rem .5rem;
                 flex-flow: row wrap;
             }
@@ -24,6 +24,12 @@ class MenuBasic01Wc extends HTMLElement {
 
             .menu--ul {
                 display: flex;  
+            }
+
+            .menu--icon {
+                display: inline-block;
+                vertical-align: text-bottom;
+                margin-right: .3rem
             }
 
             .menu--a {
@@ -48,14 +54,26 @@ class MenuBasic01Wc extends HTMLElement {
         <nav class='menu'>
             <slot></slot>
             <ul class='menu--logo'>
-                <image src='https://bucket-nc-images.s3.amazonaws.com/nc/logos/nc/imagotipo/imagotipo-nc.png' width='35'>
+                <image src='./src/assets/img/ts-logo-black.png' width='35'>
             </ul>
 
             <ul class='menu--ul'>
-                <a class="menu--a" href="index.html"> Inicio </a>
-                <a class="menu--a" href="exercises-basic.html"> Basic</a>
-                <a class="menu--a" href="exercises-medium.html"> Medium </a>
-                <a class="menu--a" href="exercises-avanced.html"> Avanced </a>
+                <a class="menu--a" href="index.html">
+                    <img class='menu--icon' src='./src/assets/img/home-solid-white.svg' width='24'> 
+                    Inicio
+                </a>
+                <a class="menu--a" href="exercises-basic.html">
+                    <img class='menu--icon' src='./src/assets/img/puzzle-white.svg' width='24'>
+                    Exercises
+                </a>
+                <a class="menu--a" href="exercises-medium.html">
+                    <img class='menu--icon' src='./src/assets/img/test-white.svg' width='24'>
+                    Tests
+                </a>
+                <a class="menu--a" href="exercises-avanced.html">
+                    <img class='menu--icon' src='./src/assets/img/info-button-white.svg' width='24'>
+                    About as 
+                </a>
             </ul>
 
             <ul>

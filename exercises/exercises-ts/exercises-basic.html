@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Exercises TS </title>
 
+    <!-- Styles Main-->
+    <link rel="stylesheet" href="./src/assets/css/main.css">
+
     <!-- Styles Bootstrap 5 -->
     <link rel="stylesheet" href="./dist/index.css">
     <!-- Styles Dashboard -->
@@ -32,12 +35,13 @@
 
             <div class="dash--main-exercises">
                 <Section class="m-5">
+
                     <header class="container my-3">
                         <h5 class='text-center secondary'> BASIC EXERCISES TYPESCRIPT </h5>
                         <h6 class='text-center'> Basic exercises typescript </h6>
                     </header>
 
-                    <article class="container-md my-5">
+                    <article id='01-lengt-of-string' class="container-md my-5">
                         <header class="header mb-3">
                             <h6> 01 - Lengt of string </h6>
                             <p> Do an exercise that counts the text strings. </p>
@@ -57,17 +61,72 @@
                             </div>
                             <button onclick="lengtchain()" class="btn btn-primary btn-sm" type="button"> Execute code </button>
                         </form>
-
-                        
                     </article>
+
+                    <hr>
+
+                    <article id='02-lengt-of-string' class="container-md my-5">
+                        <header class="header mb-3">
+                            <h6> 02 - Lengt of string </h6>
+                            <p> Do an exercise that counts the text strings. </p>
+                        </header>
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Text string</label>
+                                <input type="text" class="form-control" id="InputText"
+                                    aria-describedby="emailHelp"
+                                    placeholder="Add a text chain">
+                                <div id="emailHelp" class="form-text"> You can add any text string ( Text, Number etc)
+                                </div>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <script src="https://gist.github.com/andresganc/574e891afa604362ff5c79605ef58fc5.js"></script>
+                            </div>
+                            <button onclick="lengtchain()" class="btn btn-primary btn-sm" type="button"> Execute code </button>
+                        </form>
+                    </article>
+
+                    <hr>
+
+                    <article id='03-lengt-of-string' class="container-md my-5">
+                        <header class="header mb-3">
+                            <h6> 03 - Lengt of string </h6>
+                            <p> Do an exercise that counts the text strings. </p>
+                        </header>
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Text string</label>
+                                <input type="text" class="form-control" id="InputText"
+                                    aria-describedby="emailHelp"
+                                    placeholder="Add a text chain">
+                                <div id="emailHelp" class="form-text"> You can add any text string ( Text, Number etc)
+                                </div>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <script src="https://gist.github.com/andresganc/574e891afa604362ff5c79605ef58fc5.js"></script>
+                            </div>
+                            <button onclick="lengtchain()" class="btn btn-primary btn-sm" type="button"> Execute code </button>
+                        </form>
+                    </article>
+
+                    
                 </Section>
 
-                <aside>
-                    <nav>
+                <aside class="aside-right">
+                    
+                    <div class="container my-3">
+                        <img class='main--menu-icon jc' src='./src/assets/img/home-solid.svg' width='30'> 
+                        <p class="text-center"> Menu exercises basic </p>
+                    </div>
+                    
+                    
+                    <nav >
                         <ul>
-                            <li><a href=""> 01 Lengt of string </a></li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
+                            <a href="#01-lengt-of-string" class="aside-right__a" > 01 - Lengt of string </a>
+                            <a href="#02-lengt-of-string" class="aside-right__a" > 02 - Lengt of string </a>
+                            <a href="#03-lengt-of-string" class="aside-right__a" > 03 - Lengt of string </a>
                         </ul>
                     </nav>
                 </aside>
