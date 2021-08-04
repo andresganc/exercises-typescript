@@ -6,3 +6,6 @@ import './src/components/menus/menu-basic-vertical-01-wc'
 import './src/1-basic-exercises/hola-mundo-basic'
 import './src/1-basic-exercises/hola-mundo-function'
 
+// Components
+import './src/components/button-wc/button-wc'
+
