@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@newsoft-computer/web-components": "0.0.1",
+    "@newsoft-computer/web-components-base": "0.0.1",
     "@stencil/core": "^2.6.0"
   },
   "devDependencies": {
