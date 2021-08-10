@@ -8,5 +8,7 @@ import './src/1-basic-exercises/hola-mundo-basic'
 import './src/1-basic-exercises/hola-mundo-function'
 
 // NC Web Components
-import './node_modules/nc-web-components-test/dist/esm/stencil'
+//import '@newsoft-computer/web-components/dist/collection/components/nc-button/nc-button'
+//ºimport '@newsoft-computer/web-components/dist/stencil/index.esm'
+import './node_modules/@newsoft-computer/web-components/dist/esm/stencil'
 
