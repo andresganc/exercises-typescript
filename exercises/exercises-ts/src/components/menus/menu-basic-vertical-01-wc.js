@@ -146,7 +146,7 @@ class MenuBasicVertical01Wc extends HTMLElement {
                         EXERCISES
                     </a>
                     <ul class='main--menu-ul'>
-                        <a class="main--menu-a" href="exercises-basic.html">
+                        <a class="main--menu-a" href="src/pages/exercises-basic.html">
                             <img class='main--menu-icon' src='./src/assets/img/one.svg' width='20'>
                             Basic
                         </a>

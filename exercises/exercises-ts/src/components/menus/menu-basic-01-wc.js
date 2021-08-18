@@ -62,15 +62,15 @@ class MenuBasic01Wc extends HTMLElement {
                     <img class='menu--icon' src='./src/assets/img/home-solid-white.svg' width='24'> 
                     Inicio
                 </a>
-                <a class="menu--a" href="exercises-basic.html">
+                <a class="menu--a" href="src/pages/xercises-basic.html">
                     <img class='menu--icon' src='./src/assets/img/puzzle-white.svg' width='24'>
                     Exercises
                 </a>
-                <a class="menu--a" href="exercises-medium.html">
+                <a class="menu--a" href="src/pages/exercises-medium.html">
                     <img class='menu--icon' src='./src/assets/img/test-white.svg' width='24'>
                     Tests
                 </a>
-                <a class="menu--a" href="exercises-avanced.html">
+                <a class="menu--a" href="src/pages/exercises-avanced.html">
                     <img class='menu--icon' src='./src/assets/img/info-button-white.svg' width='24'>
                     About as 
                 </a>
