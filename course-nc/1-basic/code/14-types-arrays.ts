@@ -8,15 +8,38 @@ var variable = ["datoTexto", datoNumerico, DatoBoleano];
 
 */
 
-var numeros = new Array(1, 2, 3);
+// Create Array
+let numeros = new Array(1, 2, 3);
 console.log(numeros)
 
-var producto_nc: string[] = ["Camara fija interna", "camara fija externa", "DVR - XVR", "Video Balum"];
 
-var actors: string[] = ["Felicia", "Nathan", "Neil"];
+// String Array
+let producto_nc: string[] = ["Camara fija interna", "camara fija externa", "DVR - XVR", "Video Balum"];
+
+let actors: string[] = ["Felicia", "Nathan", "Neil"];
 
 console.log (producto_nc);
 console.log (producto_nc.length);
+
+
+// Number Array
+let numberArray1: number[] = [58, 98, 65, 5, 475]
+
+
+// Boolean Array
+let booleanArray1: boolean[] = [true, false, false, true]
+
+
+// Any Array
+let nayArray: any[] = ['Andres', 'Giraldo', 42, true]
+
+
+// Tuple Arrays
+let tupleArray1: [string, number, boolean]
+tupleArray1 = ['Andres', 42, true]
+
+
+
 
 // Imprimir en pantalla el registro 2
 console.log (producto_nc[2]);
